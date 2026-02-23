@@ -1,14 +1,14 @@
 :root {
-    --primary: #5f39ff;
-    --primary-dark: #4a2bd9;
-    --secondary: #20d9a1;
-    --dark: #3a3a3a;
+    --primary: #00b67a;
+    --primary-dark: #009567;
+    --secondary: #00b67a;
+    --dark: #191919;
     --light: #f8f9fa;
     --white: #ffffff;
     --gray: #4a4a4a;
     --gray-light: #e9ecef;
-    --gradient: linear-gradient(135deg, #5f39ff 0%, #20d9a1 100%);
-    --shadow: 0 10px 40px rgba(95, 57, 255, 0.15);
+    --gradient: linear-gradient(135deg, #191919 0%, #00b67a 100%);
+    --shadow: 0 10px 40px rgba(0, 182, 122, 0.15);
     --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
     --radius: 12px;
     --radius-lg: 20px;
@@ -72,12 +72,12 @@ img {
 .btn-primary {
     background: var(--gradient);
     color: var(--white);
-    box-shadow: 0 4px 20px rgba(95, 57, 255, 0.35);
+    box-shadow: 0 4px 20px rgba(0, 182, 122, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(95, 57, 255, 0.45);
+    box-shadow: 0 8px 30px rgba(0, 182, 122, 0.45);
 }
 
 .btn-outline {
@@ -259,7 +259,7 @@ img {
 
 .hero {
     padding: 160px 0 100px;
-    background: linear-gradient(180deg, #f8f9ff 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #f2faf7 0%, var(--white) 100%);
     overflow: hidden;
 }
 
@@ -353,7 +353,7 @@ img {
 
 .credibility {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f8f9ff 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #f2faf7 100%);
 }
 
 .credibility .container {
@@ -411,7 +411,7 @@ img {
 
 .how-it-works {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f8f9ff 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #f2faf7 100%);
 }
 
 .section-title {
@@ -595,7 +595,7 @@ img {
 
 .faq {
     padding: 100px 0;
-    background: linear-gradient(180deg, #f8f9ff 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #f2faf7 0%, var(--white) 100%);
 }
 
 .faq-list {
@@ -899,14 +899,6 @@ img {
         font-size: 25px;
     }
 
-    .google-cards {
-        align-items: center;
-    }
-
-    .google-card {
-        margin-left: 0 !important;
-        max-width: 280px;
-    }
 
     .stats .container {
         grid-template-columns: repeat(2, 1fr);
