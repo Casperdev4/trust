@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(for f in Les-avis-Trustpilot*)",
+      "Bash(do cp \"$f\" les-avis-trustpilot-guide-complet.png)",
+      "Bash(done)",
+      "Bash(test:*)",
+      "Bash(for f in \"Trustpilot_Widgets-_FR_Pink-FR.png\" \"Trustpilot_Widgets-_FR_Orange-FR.png\" \"temoignage-avis-trustpilot-1.webp\" \"temoignage-avis-trustpilot-2.webp\" \"temoignage-avis-trustpilot-3.webp\" \"temoignage-avis-trustpilot-4.webp\" \"temoignage-avis-trustpilot-5.webp\" \"favicon.ico\")",
+      "Bash(do test -f \"$f\")",
+      "Bash(file:*)",
+      "Bash(comm:*)",
+      "Bash(for f in *.html)",
+      "Bash(do tail -3 \"$f\")",
+      "Bash(git push:*)"
+    ]
+  }
+}
